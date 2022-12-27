@@ -1,9 +1,11 @@
 {
   "name": "messenger",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Messenger App",
+  "main": "./src/index.js",
   "scripts": {
+    "dev": "parcel ./static/index.html",
+    "build": "parcel build ./static/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,10 +13,13 @@
     "url": "git+https://github.com/vladimirloskutov/messenger.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Vladimir Loskutov",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/vladimirloskutov/messenger/issues"
   },
-  "homepage": "https://github.com/vladimirloskutov/messenger#readme"
+  "homepage": "https://github.com/vladimirloskutov/messenger#readme",
+  "devDependencies": {
+    "parcel": "^2.8.2"
+  }
 }
